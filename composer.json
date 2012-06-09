@@ -1,0 +1,25 @@
+{
+    "name": "jongotlin/seomoz-bundle",
+    "type": "library",
+    "description": "A Symfony2 bundle for http://github.com/jongotlin/SeoMoz",
+    "keywords": ["seo","seomoz"],
+    "homepage": "http://github.com/jongotlin/SeoMozBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Gotlin",
+            "email": "jon@jon.se",
+            "homepage": "http://www.jongotlin.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+        "jongotlin/seomoz": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "JGI\\Bundle\\SeoMozBundle": ""
+        }
+    }
+}
